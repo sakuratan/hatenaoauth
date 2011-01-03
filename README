@@ -1,0 +1,30 @@
+abraham's twitteroauth based Hatena OAuth library.
+
+INSTALL
+=======
+
+1. Download abraham's twitteroauth library from github
+https://github.com/abraham/twitteroauth.
+(You must use "March 11, 2010" or newer version of twitteroauth library.
+hatenaoauth maybe does not work with older versions.)
+
+2. Copy twitteroauth/OAuth.php to your application directory.
+
+3. Copy hatenaoauth.php to same directory.
+
+EXAMPLE
+=======
+
+This repository contains the following two example scripts.
+
+gettoken.php:
+This script describes how to get an access token from Hatena OAuth.
+You must exchange the OAuth access token before your application try to
+call Hatena APIs.
+
+bookmark.php:
+This script describes how to add an entry to Hatena Bookmark with
+the access token.
+
+To use the example scripts, initialize $CONSUMER_TOKEN and $CONSUMER_SECRET
+by your consumer token and secret.
